@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: whitesmoke;
+}
+ 
+.note-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+ 
+}
+ 
+.note-app  h1 {
+  font-weight: normal;
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.note-app h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ 
+.note-item {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+  border: 1px dashed black;
+  padding: 16px;
+  border-radius: 8px;
+}
+ 
+.note-item__body {
+  margin-left: 8px;
+  flex: 1;
+}
+ 
+.note-item__title {
+  padding: 4px 0;
+}
+ 
+.note-item__description {
+  font-weight: lighter;
+}
+
+.note-item__date {
+  font-style: italic;
+  font-size: 10px;
+}
+ 
+.note-item__delete {
+  padding: 8px;
+  font-size: 14px;
+  background-color: orangered;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note-item__archive {
+  margin-left: 2px;
+  padding: 8px;
+  font-size: 14px;
+  background-color: purple;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.note-input {
+  border: 1px dashed black;
+  padding: 16px;
+  margin: 14px 0;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+ 
+.note-input input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.note-input small {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  text-align: right;
+  color: grey;
+}
+ 
+.note-input button {
+  width: 100%;
+  padding: 8px;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
